@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Slf4j
-@Controller
+@Controller/*注意他和@restController的区别*/
 @RequestMapping("user")
 public class UserController {
     @Autowired
